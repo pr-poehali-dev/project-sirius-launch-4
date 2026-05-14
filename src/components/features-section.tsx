@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
+    title: "Положительная степень",
+    description: "Описывает качество без сравнения. EN: big, happy, interesting. RU: большой, весёлый, интересный.",
     icon: "brain",
-    badge: "ИИ",
+    badge: "Positive",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Сравнительная степень",
+    description: "Сравнивает два предмета. EN: bigger, happier, more interesting. RU: больше, веселее, интереснее.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Comparative",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
-  },
-  {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Превосходная степень",
+    description: "Выделяет один предмет среди всех. EN: the biggest, the most interesting. RU: самый большой, наиболее интересный.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Superlative",
+  },
+  {
+    title: "Правило -er / -est",
+    description: "Короткие прилагательные (1-2 слога): добавляем -er и -est. EN: tall → taller → the tallest.",
+    icon: "lock",
+    badge: "Правило",
+  },
+  {
+    title: "Правило more / most",
+    description: "Длинные прилагательные (3+ слога): используем more и most. EN: beautiful → more beautiful → the most beautiful.",
+    icon: "globe",
+    badge: "Правило",
+  },
+  {
+    title: "Исключения",
+    description: "Неправильные формы нужно запомнить! EN: good → better → the best. RU: хороший → лучше → самый лучший.",
+    icon: "link",
+    badge: "Исключения",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Три степени сравнения</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            В английском и русском языках прилагательные имеют три степени — разбираем каждую с примерами
           </p>
         </div>
 
